@@ -211,31 +211,33 @@ main {
 }
 
 
-/* Layout styles to push footer to bottom */
-html, body {
-    height: 100%;
+/* Make footer stick to the bottom */
+
+html {
+    position: relative;
+    min-height: 100%;
 }
 
-.page-wrapper {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+body {
+    margin: 0;
+    padding-bottom: 40px; /* Must match footer height */
 }
 
-main {
-    flex: 1;
-}
-
-/* Footer styles */
 footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
     background-color: rgba(40, 62, 80, 0.9);
     color: white;
     text-align: center;
     padding: 1rem;
     font-size: 0.9rem;
-    margin-top: auto; /* Pushes footer to bottom */
+    z-index: 100; /* Ensures footer stays above other content */
 }
 
+/* Your existing footer link styles can remain the same */
 footer a {
     color: #95c242;
     text-decoration: none;
