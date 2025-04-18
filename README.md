@@ -85,7 +85,6 @@ To facilitate this you will want to create Book prototype function that toggles 
 You’re not required to add any type of storage right now to save the information between page reloads. 
 
 You’re not required to add any type of storage right now to save the information between page reloads.
->>>>>>> Stashed changes
 
 You will have the option to come back to this project later on in the course.
 
