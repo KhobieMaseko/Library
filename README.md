@@ -1,6 +1,5 @@
 # Project: Library
 
-<<<<<<< Updated upstream
 All of your book objects are going to be stored in an array, so you’ll need a constructor for books. 
 
 Then, add a separate function to the script (not inside the constructor) that can take some arguments, create a book from those arguments, and store the new book object into an array. 
@@ -8,7 +7,7 @@ Then, add a separate function to the script (not inside the constructor) that ca
 Also, all of your book objects should have a unique id, which can be generated using crypto.randomUUID(). 
 
 This ensures each book has a unique and stable identifier, preventing issues when books are removed or rearranged. 
-=======
+
 All of your book objects are going to be stored in an array, so you’ll need a constructor for books.
 
 Then, add a separate function to the script (not inside the constructor) that can take some arguments, create a book from those arguments, and store the new book object into an array.
@@ -16,7 +15,6 @@ Then, add a separate function to the script (not inside the constructor) that ca
 Also, all of your book objects should have a unique id, which can be generated using crypto.randomUUID().
 
 This ensures each book has a unique and stable identifier, preventing issues when books are removed or rearranged.
->>>>>>> Stashed changes
 
 Your code should look something like this (we’re showing only a basic skeleton without function parameters):
 
@@ -30,7 +28,6 @@ function addBookToLibrary() {
   // take params, create a book then store it in the array
 }
 
-<<<<<<< Updated upstream
 Write a function that loops through the array and displays each book on the page. 
 
 You can display them in some sort of table, or each on their own “card”. 
@@ -52,7 +49,7 @@ How you decide to display this form is up to you. For example, you may wish to h
 However you do this, you will most likely encounter an issue where submitting your form will not do what you expect it to do. 
 
 That’s because the submit input tries to send the data to a server by default. This is where event.preventDefault(); will come in handy. 
-=======
+
 Write a function that loops through the array and displays each book on the page.
 
 You can display them in some sort of table, or each on their own “card”.
@@ -74,7 +71,6 @@ How you decide to display this form is up to you. For example, you may wish to h
 However you do this, you will most likely encounter an issue where submitting your form will not do what you expect it to do.
 
 That’s because the submit input tries to send the data to a server by default. This is where event.preventDefault(); will come in handy.
->>>>>>> Stashed changes
 
 Check out the documentation for event.preventDefault and see how you can solve this issue!
 
@@ -86,9 +82,8 @@ Add a button on each book’s display to change its read status.
 
 To facilitate this you will want to create Book prototype function that toggles a book instance’s read status.
 
-<<<<<<< Updated upstream
 You’re not required to add any type of storage right now to save the information between page reloads. 
-=======
+
 You’re not required to add any type of storage right now to save the information between page reloads.
 >>>>>>> Stashed changes
 
@@ -97,15 +92,12 @@ You will have the option to come back to this project later on in the course.
 How to Use:
 
   Click the "New Book" button to open the form.
-<<<<<<< Updated upstream
   
   Fill in the book details (title, author, pages, read status).
   
   Submit the form to add the book to your library.
   
   Use the "Toggle Read" button to change a book's read status.
-  
-=======
 
   Fill in the book details (title, author, pages, read status).
 
@@ -113,7 +105,6 @@ How to Use:
 
   Use the "Toggle Read" button to change a book's read status.
 
->>>>>>> Stashed changes
   Use the "Remove" button to delete a book from your library.
 
 
