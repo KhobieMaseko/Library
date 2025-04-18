@@ -209,3 +209,40 @@ main {
 #cancel-btn:hover {
     background-color: #7f8c8d;
 }
+
+
+/* Layout styles to push footer to bottom */
+html, body {
+    height: 100%;
+}
+
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+/* Footer styles */
+footer {
+    background-color: rgba(40, 62, 80, 0.9);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    margin-top: auto; /* Pushes footer to bottom */
+}
+
+footer a {
+    color: #95c242;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #b8e253;
+    text-decoration: underline;
+}
