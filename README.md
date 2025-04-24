@@ -18,11 +18,11 @@ This ensures each book has a unique and stable identifier, preventing issues whe
 
 Your code should look something like this (we’re showing only a basic skeleton without function parameters):
 
-const myLibrary = [];
+    const myLibrary = [];
 
-function Book() {
-  // the constructor...
-}
+    function Book() {
+      // the constructor...
+    }
 
 function addBookToLibrary() {
   // take params, create a book then store it in the array
