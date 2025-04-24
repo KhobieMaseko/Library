@@ -106,5 +106,8 @@ How to Use:
 
   Use the "Remove" button to delete a book from your library.
 
+->>>>>>>>>>>>>> PROJECT UPDATE <<<<<<<<<<<<<<-
+
+Go back to your Library project and refactor it to use class instead of plain constructors.
 
 ![Library2](https://github.com/user-attachments/assets/f40949f5-5de3-45f2-b2ec-51b1e5493c01)
