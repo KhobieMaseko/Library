@@ -106,8 +106,48 @@ How to Use:
 
   Use the "Remove" button to delete a book from your library.
 
-->>>>>>>>>>>>>> PROJECT UPDATE <<<<<<<<<<<<<<-
+->>>>>>>>>>>>>> PROJECT UPDATE 1 <<<<<<<<<<<<<<-
 
-Go back to your Library project and refactor it to use class instead of plain constructors.
+Refactor project to use class instead of plain constructors.
+
+->>>>>>>>>>>>>> PROJECT UPDATE 2 <<<<<<<<<<<<<-
+
+Key Improvements Added:
+
+Character Limits:
+
+    Title: max 100 characters with counter
+
+    Author: max 50 characters with counter
+
+    Visual warnings when approaching limits
+
+Pages Validation:
+
+    Minimum: 1 page
+
+    Maximum: 20,000 pages (prevent unrealistic entries)
+
+Loading State:
+
+    Added a spinner animation when submitting
+
+    Simulated async operation (ready for real backend integration)
+
+Enhanced Error Handling:
+
+    More specific error messages
+
+    Better visual feedback
+
+    Character counters with warning states
+
+UX Improvements:
+
+    Clear counters when form resets
+
+    Better input validation feedback
+
+    More responsive validation
 
 ![Library2](https://github.com/user-attachments/assets/f40949f5-5de3-45f2-b2ec-51b1e5493c01)
