@@ -248,3 +248,62 @@ footer a:hover {
     color: #b8e253;
     text-decoration: underline;
 }
+
+
+/* Added these styles due to project update: form validation */
+
+.form-group input:invalid,
+.form-group input.invalid {
+    border-color: #e74c3c;
+}
+
+.error-message {
+    color: #e74c3c;
+    font-size: 0.8rem;
+    margin-top: 0.2rem;
+    display: none;
+}
+
+.error-message.visible {
+    display: block;
+}
+
+.char-count {
+    font-size: 0.8rem;
+    color: #7f8c8d;
+    font-weight: normal;
+    float: right;
+}
+
+.char-count.warning {
+    color: #f39c12;
+}
+
+.char-count.error {
+    color: #e74c3c;
+}
+
+/* Loading state for submit button */
+#submit-btn.loading {
+    position: relative;
+    color: transparent;
+    pointer-events: none;
+}
+
+#submit-btn.loading::after {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 50%;
+    left: 50%;
+    margin: -8px 0 0 -8px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    border-top-color: transparent;
+    animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
